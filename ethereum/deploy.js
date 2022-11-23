@@ -3,8 +3,8 @@ const Web3 = require("web3");
 const compiledFactory = require("./build/CampaignFactory.json");
 
 const provider = new HDWalletProvider(
-  'busy faith idea evoke nuclear athlete river include grocery reform cream bubble',
-  'https://goerli.infura.io/v3/ce38f31ace61436781fd55560aba848c'
+  'MNEMONIC',
+  'ENDPOINT'
 );
 const web3 = new Web3(provider);
 
